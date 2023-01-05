@@ -10,15 +10,15 @@ public class ArrayTasks
     public static void main(String[] args)
     {
         ArrayTasks arrayTasks = new ArrayTasks();
-        for (int[] innerArr : arrayTasks.sortRaggedArray(new int[][]{{12, 9, 16, 14, 4}, {5, 3, 2}, {2, 1, 9, 6}, {10, 7, 8}}))
+        /*for (int[] innerArr : arrayTasks.sortRaggedArray(new int[][]{{12, 9, 16, 14, 4}, {5, 3, 2}, {2, 1, 9, 6}, {10, 7, 8}}))
         {
             for (int i : innerArr)
             {
                 System.out.print(i + " ");
             }
             System.out.println();
-        }
-        //System.out.println(arrayTasks.findIndexOfNumber(new int[] {99, -7, 102}, 102));
+        }*/
+        System.out.println(arrayTasks.findIndexOfNumber(new int[] {99, -7, 102}, 102));
     }
 
     /**
@@ -83,7 +83,7 @@ public class ArrayTasks
         {
             if (arr[i] == number)
             {
-                foundIndexOfNumber = i + 1;
+                foundIndexOfNumber = i;
                 break;
             }
 
